@@ -310,9 +310,6 @@ class Window extends HTMLElement {
 				height: 16px;
 				display: ${this.fixedsize //lol it works for now};
 			}  
-			:host(.active) #top{
-			   background: blue !important;
-			}	
   	`;
   
   	const _window = document.createElement('div')
